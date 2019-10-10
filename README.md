@@ -19,4 +19,5 @@
 ## 2. 美团爬虫及其热力图：
 分为爬虫、可视化两部分，爬虫参考了：https://github.com/hahaha108/meituanAppSpider ，可视乎部分将店铺位置信息以热力图形式显示在地图上（百度的API）
 
-## ~~3. 司法文本分析~~
+## 3. 司法文本分析
+爬虫+数据分析，爬虫参考：https://github.com/FanhuaandLuomu/pkulaw_spider ；数据处理部分通过`结巴分词`和`TF-IDF`对文本进行分词和词权重修改，并对词向量进行关联性分析。
